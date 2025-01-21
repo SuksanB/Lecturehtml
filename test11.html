@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Table Tag : (Block Tag) -->
+
+     <!-- Table เเบบที่ 1 (เเต่ cell ใน table มีขนาดต่าวกัน) -->
+      <table border="1" width="600px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>AA</td>
+            <td>BB</td>
+            <td>CC</td>
+        </tr>
+      </table>
+      <br><br>
+      <!-- Table เเบบที่ 2 (เเต่ cell ใน table มีขนาดไม่เท่ากัน) -->
+      <table border="1" width="600px" style="text-align: center;">
+        <tr>
+            <td colspan="2">a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td colspan="2" rowspan="2">f</td>
+            <td colspan="2">g</td>
+        </tr>
+        <tr>
+            <td>h</td>
+            <td rowspan="2">i</td>
+            <td >j</td>
+        </tr>
+        <tr>
+            <td colspan="2">k</td>
+            <td>l</td>
+            <td>m</td>
+        </tr>
+      </table>
+      <br><br>
+      <!-- Table เเบบที่ 3 (เเเบบมีการกำหนดหัวตาราง) -->
+      <!-- เเนวตั้ง -->
+       <table border="1" width="500px" style="text-align: center;">
+        <tr>
+            <th>No</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Major</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>Doe</td>
+            <td>25</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mary</td>
+            <td>Smith</td>
+            <td>30</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Robert</td>
+            <td>Johnson</td>
+            <td>28</td>
+            <td>Physics</td>
+        </tr>
+       </table>
+       <br><br><br>
+      <!-- เเนวนอน -->
+       <table border="1" width="500px" style="text-align: center;">
+        <tr>
+            <th>Bangkok</th>
+            <td>Bangkae</td>
+            <td>Bangborn</td>
+        </tr>
+        <tr>
+            <th>Ratchaburi</th>
+            <td>Banpong</td>
+            <td>Potaram</td>
+        </tr>
+        <tr>
+            <th>Kanchanaburi</th>
+            <td>thamuang</td>
+            <td>Borploy</td>
+        </tr>
+        
+       </table>
+       <br><br><br>
+       <!-- Table เเบบที่ 4 (มีการเเบ่งส่วนของตาราง) -->
+        <table border="1" width="500px">
+            <tr>
+                <thead>
+                    <th style="text-align: center;">No</th>
+                    <th>รายการ</th>
+                    <th>ราคา</th>
+
+                </thead>
+                <body>
+                    <td style="text-align: center;">1</td>
+                    <td>การเเฟ</td>
+                    <td style="text-align: center; padding-right :30px;">30</td>
+                </body>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td>ชา</td>
+                    <td style="text-align: center; padding-right :30px;">40</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td>นม</td>
+                    <td style="text-align: center; padding-right :30px;">50</td>
+                </tr>
+                <tfoot>
+                    <th colspan="2" style="text-align: center; padding-right: 30px;">รวม</th>
+                    <td style="text-align: center; padding-right :30px;">120</td>
+                </tfoot>
+            </tr>
+        </table>
+</body>
+</html>
